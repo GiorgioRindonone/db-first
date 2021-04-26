@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0ae8af7e4e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+
+    <title></title>
+  </head>
+  <div id="app_car" class="">
+    <body>
+      <table>
+        <tr v-for="carVoices in carVoices">
+          <th > {{carVoices.id}} </th>
+          <th > {{carVoices.text}} </th>
+          <th > {{carVoices.componente}} </th>
+          <th > {{carVoices.attribute}} </th>
+        </tr>
+      </table>
+
+    </body>
+    <script type="text/javascript" src="script.js">
+
+    </script>
+
+  </div>
+
+
+</html>
