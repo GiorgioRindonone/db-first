@@ -1,3 +1,33 @@
 td,th {
   border: 1px solid #ddd;
   padding: 8px;
+}
+
+#tabella th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  /* background-color: #4CAF50; */
+  color: black;
+}
+
+#tabella tr:hover {background-color: #ddd;}
+
+.table--id:hover{
+  background-color: lightblue;
+}
+.table--text:hover{
+  background-color: lightgreen;
+}
+
+.table--type:hover{
+  background-color: lightyellow;
+}
+
+.table--attribute:hover{
+  background-color: lightpink;
+}
+#tabella{
+  border-collapse: collapse;
+  width: 100%;
+}

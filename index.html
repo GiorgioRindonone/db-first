@@ -12,12 +12,16 @@
   </head>
   <div id="app_car" class="">
     <body>
-      <table>
+      <table id="tabella">
+        <tr >
+          <th v-for="carTabs in carTabs"> {{carTabs.title}} </th>
+        </tr>
+
         <tr v-for="carVoices in carVoices">
-          <th > {{carVoices.id}} </th>
-          <th > {{carVoices.text}} </th>
-          <th > {{carVoices.componente}} </th>
-          <th > {{carVoices.attribute}} </th>
+          <th class="table--id"> {{carVoices.id}} </th>
+          <th class="table--text"> {{carVoices.text}} </th>
+          <th class="table--type" > {{carVoices.componente}} </th>
+          <th class="table--attribute"> {{carVoices.attribute}} </th>
         </tr>
       </table>
 
